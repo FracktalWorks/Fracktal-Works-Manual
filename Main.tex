@@ -1,0 +1,199 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{afterpage}%Page color$
+\usepackage{xcolor}
+\definecolor{grey}{gray}{0.3}
+
+\usepackage[defaultfam,tabular,lining]{montserrat} %% Option 'defaultfam'
+%% only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+
+\usepackage{graphicx}
+
+
+\title{Fracktal Works Manual}
+\author{fracktalworks3d}
+\date{December 2018}
+\usepackage{lastpage} % for the number of the last page in the document
+
+
+\usepackage{fancyhdr}
+\renewcommand{\sectionmark}[1]{\markright{#1}}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\fancyplain{}{\rightmark }} 
+%\rhead{\the section}
+\rhead{--- DRAFT ---}
+\lfoot{\today--- DRAFT ---Page \thepage\ of \pageref{LastPage}}
+\rfoot{Page |\thepage\ }
+
+\linespread{1.1}
+
+\begin{document}
+%\section{\LaTeX headers and footers}
+\LARGE{\textbf{Disclaimer}}\\\\
+\normalsize
+Please read the user manual and contents of the instructions carefully. Failing to read the user guide may lead to injuries and damage to Julia, Desktop 3D Printer. Users of the printer should understand the contents of the manual completely before starting up the Julia printer*.\\
+The methods or conditions used for assembling, handling, storage, use or disposal of the machine are beyond our control or beyond our knowledge. For this reason and other reasons, we do not assume responsibility and explicitly disclaim liability for the loss, injuries, expenses or damage arising out of or in any way connected with the assembly, handling, storage, use or disposal of the product.\\
+The document was made from sources which we believe are reliable. However, the information is provided without any warranty, express or implied, regarding its correctness.\\
+
+\textbf{Intended use Julia Pro}\\
+Julia 3D Printers are designed and crafted for fused deposition modeling process intended with engineering thermoplastics within a commercial/ business/ research environment. The blend of the precision and speed makes the Julia 3D printers the perfect models to conceptualize models, prototypes and small series of production. The printer is coupled with Fracktory Desktop to provide the best experience in slicing with easy interface for the user to change to match the material properties with machine settings. Fracktory is specifically designed for Julia printers and giving enhanced experience to the user.\\
+
+* Julia printer refers to Julia family of printers
+
+\thispagestyle{empty}
+\cleardoublepage %Disclaimer page end
+
+
+\LARGE{\textbf{Preface}}\\\\
+\normalsize
+This is the installation and user manual for your Julia 3D printer. This manual contains chapters about the installation and use of the Julia 3D printer.Important information and instructions on safety, installation and use have been emphasized in this manual. Please read all information and
+follow the instructions and guidelines in this manual carefully. This ensures that you will obtain great quality prints and that possible accidents and injuries will be prevented. Make sure the user of the Julia Printer has access to this manual.
+
+Every effort has been made to make this manual complete and accurate as possible. The information is believed to be true but does not aim to be all inclusive and shall be used only as a guide. Kindly bring us the attention on any errors or omissions, so that we can make amendments. Revision and improvement of the documentation could help you serve better.
+\thispagestyle{empty}
+\cleardoublepage
+
+
+
+
+\tableofcontents %Table of contents page start
+\thispagestyle{empty}
+\cleardoublepage %Table of contents page end
+
+
+\setcounter{page}{1}
+
+%section page start
+\pagecolor{grey}\afterpage{\nopagecolor}
+\Huge\textbf{\textcolor{white}{Welcome}}\\
+
+\Huge{\textcolor{white}{LET'S START}}\\
+
+%\huge {\textcolor{white}{Welcome to the user manual of Julia 2018 Desktop 3D Printer(Fourth Generation Model). The Fourth generation Julia printers is super easy to use and packed with loads of new features which was never been in our previous builds.}}
+%\vspace{80mm}\\
+
+\thispagestyle{empty}
+\cleardoublepage
+\normalsize
+%section page end
+
+
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{2pt}
+\section{Product Details}\label{sec:Product Details}
+Title: Julia Pro \\
+Filament: 1.75 mm\\
+Manufacturer: Fracktal Works Pvt Ltd, #272, 7th cross, 3rd Main, 1st Stage Peenya, Bangalore, India 560 058\\
+Power supply: 90-135 VAC, 2 A / 180-264 VAC, 1 A (50-60 Hz)\\
+Working temperature range: 18 °C (PLA)-38 °C, indoor use only\\
+Working humidity: 85 \% or less\\
+
+\section{Introduction}\label{sec:Introduction} %start introduction
+Thank you for purchasing our Julia Printer from Fracktal Works. For correct service of the printer, please, read the handbook carefully, All the chapters contain valuable information for the proper service usage.\\
+The user manual is designed specially to make your journey with Julia printers smooth and hassle free. Fracktal Works welcomes you to the exciting era of 3D printing using Julia. Read and follow this guide to get the best out if your machine and for an amazing 3D printing experience.\\
+\cleardoublepage % End introduction
+
+%section page start
+\pagecolor{grey}\afterpage{\nopagecolor}
+%\vspace{90mm}\\
+\Huge\textbf{\textcolor{white}{GETTING STARTED}}\\
+
+%\huge {\textcolor{white}{When you are setting up your Julia Desktop 3D Printer, remember it was crafted and packaged very carefully at Fracktal Works. We hope that your time unboxing carefully and getting it set up.}}
+
+\textcolor{white}{picture}\\
+\thispagestyle{empty}
+\cleardoublepage
+\normalsize
+%section page end
+
+
+\section{Getting Started}\label{sec:Getting Started}
+
+Julia can print solid 3D model which are simple or complicated ranging from toys to bearings, machine parts, replacements of broken article, casing and variety of other things. Julia helps turn concepts and ideas into physical prototypes saving time, reducing costs and shortening product development life cycles.
+
+Printing solid 3D objects is an additive manufacturing process which involves simple process such as a digital file or a solid model is initially prepared. The model is sliced into layers using a slicing software and fed into the printer to get the model printed. The printer prints by depositing molten material layer by layer with the help of 3- axis manipulator.  
+
+% A rendered printer image comes here
+\cleardoublepage
+
+
+%section page start
+\pagecolor{grey}\afterpage{\nopagecolor}
+%\vspace{90mm}\\
+\Huge\textbf{\textcolor{white}{Safety}}\\
+\thispagestyle{empty}
+\cleardoublepage
+\normalsize
+%section page end
+
+ % start Safety section
+\section{Safety}\label{sec:Safety}
+\subsection{\textbf{Hazards and warnings}}
+\subsubsection{\textbf{Electric Shock Hazards}}
+Never open the access panel when there is power supply to the printer. Before removing the electronics casing always power down the printer completely, Also unplug the power cord connected to the printer. Allow the power supply to discharge for at least one minute. 
+
+\subsubsection{\textbf{Burn Hazard}}
+Never touch the extruder nozzle or heater block without turning off the hot end and allowing it to completely cool down naturally. The hot end could as long as up to twenty minutes to completely cool. Also never touch the plastic which was just extruded. Wait for at least 3 minutes for it to cool down naturally.  The plastic can stick to your skin and cause burns. Beware of the heated bed which can reach high temperatures capable of causing burns. 
+
+\subsubsection{\textbf{Fire Hazard}}
+Never place flammable materials or liquids on or near the printer when powered or in operation. 
+
+\subsubsection{\textbf{Pinch Hazard}}
+When the printer is in operation take care of your fingers if kept near the moving parts including the belts, pulleys, or gears. Also, tie back long hair or clothing that could get caught in the moving parts of the printer. 
+
+\subsubsection{\textbf{Static Charge }}
+Make sure to ground yourself before touching the printer, especially with the electronics. Electrostatic charge can damage electronic components and may affect its functionality. To ground yourself touch a grounded source. 
+
+\subsubsection{\textbf{Age Warning}}
+For users under the age of 18, adult supervision is recommended. Beware of choking hazards.
+
+\subsubsection{\textbf{Fumes and smell Warming}}
+While printing filaments such as ABS, they give out fumes when melted. Do not inhale the fumes which are toxic. Fumes released could contain toxic fumes known as VOC`s (Volatile Organic Carbon). Not all VOC`s are actually toxic, but some may be, especially for younger users.
+\cleardoublepage
+ % Ends Safety section
+ 
+ % start Specifications
+\section{Specifications}\label{sec:Specifications}
+%\begin{figure}
+\includegraphics[scale=0.8]{Julia specs.jpg}
+%\caption{Specifications}
+%\label{fig:Specifications}
+%\end{figure}
+\cleardoublepage
+ % end Specifications
+
+
+% start What`s in the box
+\section{What`s in the box}\label{sec:What`s in the box}
+
+Accessories checklist
+\begin{enumerate}
+    \item Filament
+    \item Build Plate attached to the bed
+    \item Allen Keys
+    \item Print Adhesive
+    \item WD 40 Spray
+    \item SD Card/ USB drive
+    \item Spool Holder/ Fillock
+    \item PTFE Tube
+    \item Spatula
+    \item Nozzle cleaning tool or stove pin
+    \item PTFE fitting holder spool side/ Filament sensor mounted
+    \item Power cord
+    
+\end{enumerate}
+
+% Ends What`s in the box section
+
+\section{What`s in the box}\label{sec:What`s in the box}
+
+
+
+
+
+\end{document}
+\end{document}
